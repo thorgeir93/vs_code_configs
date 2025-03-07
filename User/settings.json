@@ -1,0 +1,37 @@
+{
+    // Fix vim esc-caps lock thingy.
+    "keyboard.dispatch": "keyCode",
+    "editor.insertSpaces": true,
+    "extensions.trustedPublishers": [
+        "vscodevim",
+        "rust-lang",
+        "ms-python",
+        "ms-toolsai",
+        "jeanp413"
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontFamily": "'IBM Plex Mono', 'Consolas', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "editor.lineHeight": 23,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#000000"
+    },
+    "vim.easymotion": true,
+    "editor.minimap.enabled": false,
+    "editor.links": false,
+    "debug.javascript.debugByLinkOptions": "on",
+    "python.analysis.autoImportCompletions": true,
+
+    // "rust-analyzer.workspace.symbol.search.scope": "workspace_and_dependencies",
+    // "rust-analyzer.workspace.discoverConfig": {
+    //     "command": [
+    //         "rust-project",
+    //         "develop-json"
+    //     ],
+    //     "progressLabel": "rust-analyzer",
+    //     "filesToWatch": [
+    //             "BUCK"
+    //     ]
+    // }
+}
